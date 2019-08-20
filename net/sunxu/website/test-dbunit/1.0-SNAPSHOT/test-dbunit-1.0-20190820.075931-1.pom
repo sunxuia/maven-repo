@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>net.sunxu.website</groupId>
+    <artifactId>test-dbunit</artifactId>
+    <version>1.0-SNAPSHOT</version>
+
+    <parent>
+        <groupId>net.sunxu.website</groupId>
+        <artifactId>website-pom</artifactId>
+        <version>1.0-SNAPSHOT</version>
+    </parent>
+    
+    <scm>
+        <url>https://github.com/sunxuia/test-dbunit</url>
+        <connection>scm:git:git@github.com:sunxuia/test-dbunit.git</connection>
+        <developerConnection>scm:git:git@github.com:sunxuia/test-dbunit.git</developerConnection>
+        <tag>HEAD</tag>
+    </scm>
+
+    <repositories>
+        <repository>
+            <id>sunxuia@github.com</id>
+            <url>https://raw.githubusercontent.com/sunxuia/maven-repo/master/</url>
+            <releases>
+                <updatePolicy>never</updatePolicy>
+            </releases>
+            <snapshots>
+                <updatePolicy>always</updatePolicy>
+            </snapshots>
+        </repository>
+    </repositories>
+
+    <dependencies>
+        <dependency>
+            <groupId>com.google.guava</groupId>
+            <artifactId>guava</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.javatuples</groupId>
+            <artifactId>javatuples</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.dbunit</groupId>
+            <artifactId>dbunit</artifactId>
+            <version>2.6.0</version>
+        </dependency>
+    </dependencies>
+</project>
