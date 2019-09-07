@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata modelVersion="1.1.0">
+  <groupId>net.sunxu.website</groupId>
+  <artifactId>website-utils</artifactId>
+  <version>1.0-SNAPSHOT</version>
+  <versioning>
+    <snapshot>
+      <timestamp>20190907.132641</timestamp>
+      <buildNumber>1</buildNumber>
+    </snapshot>
+    <lastUpdated>20190907132641</lastUpdated>
+    <snapshotVersions>
+      <snapshotVersion>
+        <extension>pom</extension>
+        <value>1.0-20190907.132641-1</value>
+        <updated>20190907132641</updated>
+      </snapshotVersion>
+    </snapshotVersions>
+  </versioning>
+</metadata>
