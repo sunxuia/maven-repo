@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>net.sunxu.website</groupId>
+  <artifactId>website-user-feignclient</artifactId>
+  <versioning>
+    <versions>
+      <version>1.0-SNAPSHOT</version>
+    </versions>
+    <lastUpdated>20190914093015</lastUpdated>
+  </versioning>
+</metadata>
